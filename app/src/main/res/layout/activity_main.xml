@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/start_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start" />
+
+    <Button
+        android:id="@+id/button_set_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Start Time" />
+
+    <TextView
+        android:id="@+id/end_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End" />
+
+    <Button
+        android:id="@+id/button_set_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set End Time" />
+
+    <Button
+        android:id="@+id/button_add_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add App" />
+
+    <ListView
+        android:id="@+id/app_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/button_start_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Monitoring" />
+
+</LinearLayout>
